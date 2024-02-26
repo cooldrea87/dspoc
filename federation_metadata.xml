@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://10.173.192.80/isam/sps/salesforce-saml/saml20">
+    <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIDBjCCAe6gAwIBAgIIVVLA1lMvNXUwDQYJKoZIhvcNAQELBQAwITEfMB0GA1UEAxMWd3d3LnNhbXN1bmcuaWJtcG9jLmNvbTAeFw0yNDAyMjUwNTU1MjNaFw0yNTAyMjUwNTU1MjNaMCExHzAdBgNVBAMTFnd3dy5zYW1zdW5nLmlibXBvYy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4COstwXkUnm0QA+B9VRkwRk/z3dxu9XZTWENaZkno9U7kHkAO4tH0v1kEEqhKwcVxdPyPi1ZQVb94CPd/XfbR/tbZbKSNpaOWArjGuWbY7tn5PICykGjirj5a+TwhRg/mWelofFTnviUau0HEJgmYvGD9Ndm+PpI3vlWJQsUs9rtwPm0hntOdBi2f/xkrq+NHCgokS4AjXPCfn0msCZreNz4htUYCwVdtMhOPSFCbW7X5jUEUdiMBSLuNgEM8XN1oP9aGo5pLNpH2bomAPopN2JgsD1NKawJS80a99byeMscMcoRG/npJIrllC1/NLK3df3UboqAz75MQcreXc3E5AgMBAAGjQjBAMB0GA1UdDgQWBBT0YvYllryE/SblfAXhLec5fLeL/jAfBgNVHSMEGDAWgBT0YvYllryE/SblfAXhLec5fLeL/jANBgkqhkiG9w0BAQsFAAOCAQEAOq54dffufBE2AbSpOK1BuDVcQn9OdkxdtZdw1NQHcMUTPBQrmYWyqVadT3lCvPbjRoMHRNAJLsWboQP828BhJuW0x+DlxUUrIFrAcCgyIGeC4dHmoGwC4Zo0u/76fAsQjfjjgN0epMIk1Q7bNcAjXB1SdAyZrI4Y7AAz4wl/ioWH9YlGppK0DNUdkvVynegJ1PrTiI3wS3qwlVxSqi0IkcAC2k4/NWi4U9c6ISqp31Wrxs6QrRJM/mhdnL2xFe7iUI0rQMjiDuQFsKisrauU42bKAy682v4RZafJnmEAwcMl+jnvsRbVmiU8wLAX4X0fCa68Mf205scV88wn/D19YA==</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIDBjCCAe6gAwIBAgIIVVLA1lMvNXUwDQYJKoZIhvcNAQELBQAwITEfMB0GA1UEAxMWd3d3LnNhbXN1bmcuaWJtcG9jLmNvbTAeFw0yNDAyMjUwNTU1MjNaFw0yNTAyMjUwNTU1MjNaMCExHzAdBgNVBAMTFnd3dy5zYW1zdW5nLmlibXBvYy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4COstwXkUnm0QA+B9VRkwRk/z3dxu9XZTWENaZkno9U7kHkAO4tH0v1kEEqhKwcVxdPyPi1ZQVb94CPd/XfbR/tbZbKSNpaOWArjGuWbY7tn5PICykGjirj5a+TwhRg/mWelofFTnviUau0HEJgmYvGD9Ndm+PpI3vlWJQsUs9rtwPm0hntOdBi2f/xkrq+NHCgokS4AjXPCfn0msCZreNz4htUYCwVdtMhOPSFCbW7X5jUEUdiMBSLuNgEM8XN1oP9aGo5pLNpH2bomAPopN2JgsD1NKawJS80a99byeMscMcoRG/npJIrllC1/NLK3df3UboqAz75MQcreXc3E5AgMBAAGjQjBAMB0GA1UdDgQWBBT0YvYllryE/SblfAXhLec5fLeL/jAfBgNVHSMEGDAWgBT0YvYllryE/SblfAXhLec5fLeL/jANBgkqhkiG9w0BAQsFAAOCAQEAOq54dffufBE2AbSpOK1BuDVcQn9OdkxdtZdw1NQHcMUTPBQrmYWyqVadT3lCvPbjRoMHRNAJLsWboQP828BhJuW0x+DlxUUrIFrAcCgyIGeC4dHmoGwC4Zo0u/76fAsQjfjjgN0epMIk1Q7bNcAjXB1SdAyZrI4Y7AAz4wl/ioWH9YlGppK0DNUdkvVynegJ1PrTiI3wS3qwlVxSqi0IkcAC2k4/NWi4U9c6ISqp31Wrxs6QrRJM/mhdnL2xFe7iUI0rQMjiDuQFsKisrauU42bKAy682v4RZafJnmEAwcMl+jnvsRbVmiU8wLAX4X0fCa68Mf205scV88wn/D19YA==</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+            <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://10.173.192.80/isam/sps/salesforce-saml/saml20/slo"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://10.173.192.80/isam/sps/salesforce-saml/saml20/slo"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://10.173.192.80/isam/sps/salesforce-saml/saml20/login"/>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://10.173.192.80/isam/sps/salesforce-saml/saml20/login"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">IBM</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">IBM</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en"/>
+    </md:Organization>
+</md:EntityDescriptor>
